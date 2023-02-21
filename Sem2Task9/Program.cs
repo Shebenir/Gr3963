@@ -16,6 +16,6 @@ else
 }
 //Вариант 2
 char[] digits = numSintezator.Next(10,100).ToString().ToCharArray();
-int firstNum = ((int)digits[0])-48;
-int secondNum = ((int)digits[1])-48;
+int firstnum = ((int)digits[0])-48;
+int secondnum = ((int)digits[1])-48;
 Console.WriteLine(digits);
